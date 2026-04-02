@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>YashiKa - Portfolio</title>
+    <title>Yashika - Portfolio</title>
     <link rel="icon" type="image/png" sizes="800x800" href="icon.png">
     <link rel="stylesheet" href="style.css" />
     <link
@@ -53,7 +53,7 @@
       I aim to create impactful digital experiences.</p>
       <p>📚 <b>Currently Learning:</b> Cloud Computing
     </p>
-    <a href="" class="btn-box" target="_blank">Download Resume</a>
+    <a href="https://drive.google.com/file/d/1AuJj3nu4J11JX8lTKsuKV-XH5eHZLa6O/view?usp=sharing" class="btn-box" target="_blank">Download Resume</a>
       </div>
 </section>
 
@@ -226,13 +226,28 @@
   </div>
 
   <div class="contact-form">
-    <form action="">
+    <!-- <form action="https://formspree.io/f/xyzdbpaw" method="POST">
       <input type="text" placeholder="Your Name" required>
-      <input type="email" placeholder="Email Address" required>
+      <label><input type="email" placeholder="Email Address" required></label>
       <input type="text" placeholder="Subject">
-      <textarea placeholder="Enter your message" required></textarea>
+      <label><textarea placeholder="Enter your message" required></textarea></label>
       <input type="submit" value="Send Message" class="send">
-    </form>
+    </form> -->
+    <form
+  action="https://formspree.io/f/xyzdbpaw"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="email" name="email">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
+</form>
   </div>
 </section>
 
